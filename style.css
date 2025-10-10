@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #012154;
+    background-color: #f0f5fc;
+}
+
+header {
+    background-color: #011e4d;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 70px;
+    padding: 35px;
+    background: #dae5f7;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h3 {
+    margin-bottom: 20px;
+    color: #011e4d;
+    text-align: center;
+}
+
+ul {
+    list-style: disc inside;
+}
+
+#informações img {
+    max-width: 400px; 
+    height: auto;
+    margin-right: 25px; 
+    object-fit: cover; 
+}
+
+.info-content {
+    display: flex; 
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.text-container {
+    flex: 1;
+    min-width: 300px;
+}
+
+.text-container p {
+    margin-bottom: 15px;
+}
+
+#acesso img {
+    max-width: 700px; 
+    height: auto;
+    margin-right: 25px; 
+    object-fit: cover; 
+}
+
+.mapa-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mapa-container iframe {
+    max-width: 100%;
+    height: 350px;
+}
+
+footer {
+    padding: 30px 20px 0;
+    background-color: #011e4d;
+    color: white;
+    font-size: 0.9em;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.footer-bloco {
+    flex: 1 1 250px;
+    padding: 10px;
+}
+
+.footer-bloco h4 {
+    color: #dae5f7;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+.footer-bloco ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-bloco a {
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+}
+
+.footer-bloco a:hover {
+    text-decoration: underline;
+    color: #dae5f7;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
