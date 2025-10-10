@@ -45,5 +45,5 @@ Este projeto é de código aberto e está sob a licença **MIT**.
 
 -----
 
-*Desenvolvido por: Abner Soares - PET Saúde / Tecnologia I*
+*Desenvolvido por: Abner Soares - PET Saúde / Tecnologia I -*
 *Status: MVP (Pronto para Produção)*
