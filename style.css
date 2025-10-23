@@ -16,6 +16,12 @@ header {
     color: white;
     padding: 20px;
     text-align: left;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
@@ -40,9 +46,11 @@ nav a:hover {
 }
 
 main {
-    padding: 20px;
-    max-width: 900px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 900px; 
     margin: auto;
+    padding-top: 240px;
 }
 
 section {
@@ -128,6 +136,11 @@ footer {
     text-align: center;
     border-bottom: 5px solid #011e4d; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+
+    position: fixed;
+    top: 145px;
+    z-index: 999;
 }
 
 .titulopagina h2 {
@@ -428,8 +441,12 @@ footer {
     transform: translateY(-2px);
 }
 
-main {
-    padding: 0;
-    max-width: none; 
+.home-layout {
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+    
+    /* MANTER O ESPAÇAMENTO DO TOPO! */
+    padding-top: 130px; 
     margin: 0 auto;
 }
