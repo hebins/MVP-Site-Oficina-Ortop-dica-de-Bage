@@ -20,10 +20,8 @@ Este é um projeto simples e estático, construído com o foco em desempenho e c
 
 ## 🚀 Como Visualizar (Instalação)
 
-Sendo um site estático, você não precisa de um servidor ou banco de dados.
-
-1.  **Abra o arquivo:**
-    Simplesmente clique duas vezes no arquivo **`index.html`** no seu explorador de arquivos. Ele será aberto no seu navegador padrão.
+1.  **Acesse o link do site:**
+    Simplesmente acesse o link do site pelo GitbuhPages: https://hebins.github.io/Oficina-Ortopedica-de-Bage-mvp-html
 
 ## 🗺️ Estrutura do Site
 
